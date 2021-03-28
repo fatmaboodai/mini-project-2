@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,500&family=Satisfy&display=swap');
+body{
+    background-color: #caf0f8;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+margin:0
+}
+.calculator{
+    width: 320px;
+    height: 530px;
+    background-color:#03045e;
+    margin: 20px auto;
+    top: 0;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#result{
+    height: 120px;
+
+
+}
+#history{
+    text-align: right;
+    height:40px;
+    margin:0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:white;
+
+}
+#output{
+text-align: right;
+height: 30px;
+margin: 10px 20px;
+font-size: 30px;
+color: white;
+
+}
+#keyboard{
+    height: 400px;
+    margin-top: 0 20px;
+}
+.operator , .number , .empty{
+    width:50px;
+    height: 50px;
+    margin: 15px ;
+    float: left;
+    border-radius: 2rem;
+    border-width: 0;
+    font-weight:lighter;
+    font-size: 15px;
+   
+
+}
+.number , .empty{
+    background-color:#03045e;
+    color: white;
+}
+
+.operator , .number{
+    cursor: pointer;
+}
+.operator:active , .number:active{
+    font-size: 13px;
+
+}
+
+.operator:focus , .number:focus{
+    outline: 0;
+}
+button:nth-child(20){
+    background-color:#48cae4 ;
+}
+button:nth-child(16){
+    background-color:#0077b6 ;
+}
+button:nth-child(12){
+    background-color:#0096c7 ;
+}
+button:nth-child(8){
+    background-color:#00b4d8 ;
+}
+button:nth-child(4){
+    background-color:#48cae4 ;
+}
+
+button:nth-child(3){
+    background-color:#00b4d8 ;
+}
+button:nth-child(2){
+    background-color:#0096c7 ;
+}
+button:nth-child(1){
+    background-color:#48cae4 ;
+}
+
